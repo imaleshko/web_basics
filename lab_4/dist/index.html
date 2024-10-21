@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - lab_4</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Моя перша HTML-форма</h1>
+<form action="https://httpbin.org/get" method="get">
+  <label for="name">Ім'я:</label>
+  <input type="text" id="name" name="name">
+  <br> 
+  <br>
+  <label for="date">Дата народження:</label>
+  <input type="date" id="date" name="date" placeholder="дд.мм.рррр">
+  <br> 
+  <br>
+  <label>Імейл:
+    <input type="email" name="email">
+  </label>
+  <br> 
+  <br>
+  <label for="message">Повідомлення:</label>
+  <textarea name="message" id="message"></textarea>
+  <br> 
+  <br>
+  <p>Ваші улюбені напої?</p>
+  <label for="tea">Чай</label>
+  <input type="checkbox" id="tea" name="tea">
+  <label for="coffee">Кава</label>
+  <input type="checkbox" id="coffee" name="coffee">
+  <label for="cola">Cola</label>
+  <input type="checkbox" id="cola" name="cola">
+  <label for="fanta">Fanta</label>
+  <input type="checkbox" id="fanta" name="fanta">
+  <br> 
+  <br>
+  <p>Моя національність:</p>
+  <label for="ukrainian">Українець</label>
+  <input type="radio" id="ukrainian" name="nationality" value="ukrainian">
+  <label for="german">Німець</label>
+  <input type="radio" id="german" name="nationality" value="german">
+  <label for="british">Британець</label>
+  <input type="radio" id="british" name="nationality" value="british">
+  <br> 
+  <br>
+  <button type="submit">Надіслати</button>
+  <button type="reset">Очистити</button>
+  <br>
+  <br>
+  <picture>
+    <source srcset="https://fastly.picsum.photos/id/296/300/500.jpg?hmac=Q4En_udT5svzp-mMsauRIOqrKg5JWpaBz5nHZ0xkzBs" media="(max-width: 468px)">
+    <source srcset="https://fastly.picsum.photos/id/839/1000/400.jpg?hmac=DzJYD-pxddXC10SZ-W5gnsLl6SEQBX0qxztAWRQsQN4" media="(min-width: 469px)">
+    <img src="https://fastly.picsum.photos/id/179/700/700.jpg?hmac=MO9z9fVf-wpnd6QNtAAkCJ_l0PIeI1WxMwyxT5eumg4" alt="foto">
+  </picture>
+</form>
+<!-- partial -->
+  
+</body>
+</html>
